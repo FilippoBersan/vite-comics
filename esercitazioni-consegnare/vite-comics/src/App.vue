@@ -1,9 +1,20 @@
-<script setup>
-import HeadDc from './components/HeadDc.vue';
+<script>
+import HeaderDc from './components/HeaderDc.vue';
+
+export default {
+  data() {
+    return {};
+  },
+  components: {
+    HeaderDc,
+  },
+};
 </script>
 
 <template>
-  <HeadDc />
+  <header>
+    <HeaderDc></HeaderDc>
+  </header>
 </template>
 
 <style scoped></style>
