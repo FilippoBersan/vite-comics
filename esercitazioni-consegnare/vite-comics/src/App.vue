@@ -1,5 +1,6 @@
 <script>
 import FooterDc from './components/FooterDc.vue';
+import BarBlue from './components/BarBlue.vue';
 import HeaderDc from './components/HeaderDc.vue';
 
 export default {
@@ -9,6 +10,7 @@ export default {
   components: {
     HeaderDc,
     FooterDc,
+    BarBlue,
   },
 };
 </script>
@@ -16,6 +18,7 @@ export default {
 <template>
   <header>
     <HeaderDc></HeaderDc>
+    <BarBlue></BarBlue>
     <FooterDc></FooterDc>
   </header>
 </template>
