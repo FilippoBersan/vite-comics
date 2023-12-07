@@ -49,6 +49,7 @@ export default {
 <template>
   <div class="container-head">
     <img src="/public/dc-logo.png" alt="" />
+
     <ul>
       <li v-for="categories in categories">
         <a href="">{{ categories.text }}</a>

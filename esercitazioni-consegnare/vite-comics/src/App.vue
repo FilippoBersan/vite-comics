@@ -1,4 +1,5 @@
 <script>
+import FooterDc from './components/FooterDc.vue';
 import HeaderDc from './components/HeaderDc.vue';
 
 export default {
@@ -7,6 +8,7 @@ export default {
   },
   components: {
     HeaderDc,
+    FooterDc,
   },
 };
 </script>
@@ -14,6 +16,7 @@ export default {
 <template>
   <header>
     <HeaderDc></HeaderDc>
+    <FooterDc></FooterDc>
   </header>
 </template>
 
