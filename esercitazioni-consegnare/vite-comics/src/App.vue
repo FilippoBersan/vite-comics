@@ -1,6 +1,7 @@
 <script>
 import FooterDc from './components/FooterDc.vue';
 import JumbotronDc from './components/JumbotronDc.vue';
+import MainDc from './components/MainDc.vue';
 import BarBlue from './components/BarBlue.vue';
 import HeaderDc from './components/HeaderDc.vue';
 import FooterLow from './components/FooterLow.vue';
@@ -12,6 +13,7 @@ export default {
   components: {
     HeaderDc,
     JumbotronDc,
+    MainDc,
     FooterDc,
     BarBlue,
     FooterLow,
@@ -23,6 +25,7 @@ export default {
   <header>
     <HeaderDc></HeaderDc>
     <JumbotronDc></JumbotronDc>
+    <MainDc></MainDc>
     <BarBlue></BarBlue>
     <FooterDc></FooterDc>
     <FooterLow></FooterLow>
