@@ -156,7 +156,7 @@ export default {
         </ul>
       </div>
     </div>
-    <img src="/public/dc-logo-bg.png" alt="" />
+    <img src="/public/dc-logo-bg.png" alt="" class="img-blu" />
   </div>
 </template>
 
@@ -168,6 +168,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  height: 450px;
 
   h2 {
     color: white;
@@ -184,6 +185,11 @@ export default {
   a {
     text-decoration: none;
     color: gray;
+  }
+
+  .img-blu {
+    position: relative;
+    left: 100px;
   }
 }
 </style>

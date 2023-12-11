@@ -62,7 +62,7 @@ export default {
 .container-head {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
 }
 
 ul {
